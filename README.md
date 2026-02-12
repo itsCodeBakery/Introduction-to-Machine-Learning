@@ -1,10 +1,6 @@
-Understood, Professor Shah. You need a high-level, comprehensive **Course Syllabus** style README that serves as the "Front Page" for your entire semester.
 
-Here is a structured template designed to look professional on GitHub. It includes a clear roadmap for the students and highlights your role as the instructor.
 
----
-
-# 🎓 Machine Learning (CS-XXX)
+# 🎓 Machine Learning
 
 ### Instructor: Syed Shayan Ali Shah
 
