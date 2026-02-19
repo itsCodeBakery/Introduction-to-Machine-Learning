@@ -1,65 +1,216 @@
 
 
-# 🎓 Machine Learning
+# 📘 Machine Learning – Course Repository
 
-### Instructor: Syed Shayan Ali Shah
+## 📌 Course Overview
 
-Welcome to the repository for my **Machine Learning** course. This space is designed to be your primary resource for understanding how machines learn from data, the mathematics behind optimization, and the practical implementation of algorithms.
+Machine Learning (ML) focuses on the design and development of algorithms that learn from data and improve their performance through experience. It enables computers to learn patterns, optimize decisions, and adapt autonomously without being explicitly programmed for every task.
 
-> **📢 Course Announcement:** I will be updating this repository **lecture by lecture**. Each update will include the relevant slides, code examples, and supplementary notes.
+ML techniques power a wide range of real-world applications, including:
+
+* Object detection and image recognition in computer vision
+* Sentiment analysis in natural language processing
+* Disease detection and treatment planning in healthcare
+* Product recommendation systems in e-commerce
+* Game-playing strategies
+* Movie recommendation engines
+* Speech recognition systems
+* Fraud detection and loan approval systems in banking
+
+This course provides a rigorous introduction to both the **theoretical foundations** and **practical applications** of machine learning. Students will explore core algorithms in supervised and unsupervised learning, understand their mathematical foundations, and implement them in practice.
+
+Throughout the course, we will study:
+
+* Classification
+* Regression
+* Clustering
+* Dimensionality Reduction
+* Regularization
+* Optimization techniques
+
+The emphasis will be on understanding the **core principles that unify machine learning algorithms**, rather than only applying them as black-box models.
+
+Assessment will include assignments, quizzes, and examinations designed to test both conceptual understanding and practical skills.
 
 ---
 
-## 📌 Course Objectives
+## 📚 Recommended Books
+
+* **Pattern Recognition and Machine Learning** – Christopher M. Bishop
+* **Machine Learning: A Probabilistic Perspective** – Kevin Murphy
+* **Machine Learning** – Tom Mitchell
+* **The Elements of Statistical Learning: Data Mining, Inference, and Prediction** – Hastie, Tibshirani, Friedman
+* **Information Theory, Inference, and Learning Algorithms** – David MacKay
+
+---
+
+## 🗂 Course Outline (14 Weeks)
+
+### **Week 01**
+
+* Course Introduction
+* Machine Learning Overview
+* Supervised Learning: Problem Formulation, Setup
+* Train-Test Split
+* Generalization
+
+---
+
+### **Week 02**
+
+* k-Nearest Neighbor (kNN) Algorithm
+* Algorithm Formulation
+* Distance Metrics
+* Choice of k
+* Convergence Analysis
+* Storage and Time Complexity
+* Fast kNN Techniques
+
+---
+
+### **Week 03**
+
+* Curse of Dimensionality
+* Connection with kNN
+* Dimensionality Reduction
+
+  * Feature Selection
+  * Feature Extraction
+* Principal Component Analysis (PCA)
+
+---
+
+### **Week 04**
+
+* Classifier Performance Evaluation
+* Confusion Matrix
+* Sensitivity and Specificity
+* Precision-Recall Trade-offs
+* ROC Curve
+* AUC
+* F1-Score
+* Matthew’s Correlation Coefficient
+
+---
+
+### **Week 05**
+
+* Multi-class Classification
+* Micro and Macro Averaging
+* Regression
+
+  * Linear Regression
+  * Polynomial Regression
+* Overfitting
+* Regularization
+
+---
+
+### **Week 06**
+
+* Gradient Descent Algorithm
+* Probability Review
+* Introduction to Bayesian Learning
+
+---
+
+### **Week 07**
+
+* Bayesian Learning Framework
+* Maximum Likelihood (ML) and Maximum A Posteriori (MAP)
+* Linear Regression as ML Estimation
+* Naïve Bayes Classifier
+* Naïve Bayes for Text Classification
+* Introduction to Bayesian Networks
+
+---
+
+### **Week 08**
+
+* Logistic Regression
+
+  * Mathematical Model
+  * Decision Boundaries
+  * Loss/Cost Function
+  * Gradient Descent
+* Multi-class Logistic Regression
+
+---
+
+### **Week 09**
+
+* Perceptron and Perceptron Classifier
+* Perceptron Learning Algorithm
+* Geometric Intuition
+* Convergence Analysis
+* Support Vector Machines (SVM) Overview
+
+---
+
+### **Week 10**
+
+* Hard Margin SVM
+* Soft Margin SVM
+* Kernel Trick
+
+---
+
+### **Week 11**
+
+* Introduction to Neural Networks
+* Neural Network Model
+* Forward Pass
+
+---
+
+### **Week 12**
+
+* Backpropagation Algorithm
+* Training Neural Networks
+
+---
+
+### **Week 13**
+
+* Unsupervised Learning Overview
+* Clustering
+
+  * K-Means Clustering
+  * Agglomerative (Hierarchical) Clustering
+
+---
+
+### **Week 14**
+
+* Introduction to Deep Learning
+* Convolutional Neural Networks (CNNs)
+
+---
+
+## 🎯 Learning Outcomes
 
 By the end of this course, students will be able to:
 
-* Understand the core principles of **Supervised** and **Unsupervised** learning.
-* Derive and implement various **Loss Functions** (MSE, MAE, RMSE).
-* Optimize models using **Gradient Descent** and other solvers.
-* Evaluate model performance using statistical metrics.
-* Deploy regression and classification models to solve real-world problems.
+* Formulate machine learning problems mathematically
+* Understand and derive core ML algorithms
+* Evaluate model performance using proper metrics
+* Apply optimization techniques for model training
+* Implement supervised and unsupervised learning algorithms
+* Understand the theoretical foundations behind modern deep learning
 
 ---
 
-## 🗺️ Course Roadmap (Updated Weekly)
+## 🛠 Repository Structure
 
-| Week | Module | Topics Covered | Status |
-| --- | --- | --- | --- |
-| **1** | **Foundations** | Intro to ML, Data Types, and Squared Loss Function | ✅ |
-| **2** | **Linear Regression** | MSE, RMSE, and Simple Linear Modeling | 🔄 In Progress |
-| **3** | **Optimization** | Gradient Descent and Convexity | ⏳ Upcoming |
-| **4** | **Classification** | Logistic Regression and Cross-Entropy | ⏳ Upcoming |
-| **5** | **Regularization** | Overfitting, Underfitting, L1 (Lasso) & L2 (Ridge) | ⏳ Upcoming |
-| **6** | **Tree Models** | Decision Trees and Random Forests | ⏳ Upcoming |
-| **7** | **Neural Networks** | Backpropagation and Deep Learning Basics | ⏳ Upcoming |
+This repository will contain:
+
+* 📂 Lecture slides (Credit Goes to LUMS)
+* 📂 Assignments
+* 📂 Practice notebooks
+* 📂 Supplementary reading materials
+* 📂 Code implementations
 
 ---
 
-## 📂 Repository Structure
 
-* `/Lectures`: PDF/PowerPoint slides from each session.
-* `/Code`: Python scripts and Jupyter Notebooks (`.ipynb`).
-* `/Assignments`: Problem sets and project descriptions.
-* `/Datasets`: CSV files used for training models in class.
-
----
-
-## 🛠️ Tools & Environments
-
-We will be using the following stack during this course:
-
-* **Language:** Python 3.x
-* **Libraries:** NumPy, Pandas, Scikit-Learn, Matplotlib
-* **Environment:** Jupyter Notebook / Google Colab
-
----
-
-## 🤝 Contribution & Support
-
-Students are encouraged to:
-
-1. **Fork** this repository to keep their own versions of the code.
-2. **Open an Issue** if they find bugs in the code samples.
-3. **Star** the repo to easily find it during study sessions.
 
